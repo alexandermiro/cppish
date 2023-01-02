@@ -1,0 +1,33 @@
+{
+  "name": "cppish",
+  "displayName": "cppish",
+  "description": "A C++ simple theme",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cppish Light",
+        "uiTheme": "vs",
+        "path": "./themes/Cppish Light-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "light theme",
+    "coder",
+    "c++",
+    "cpp"
+  ]
+  
+}
