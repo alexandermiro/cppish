@@ -2,7 +2,8 @@
   "name": "cppish",
   "displayName": "cppish",
   "description": "A C++ simple theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "cppish",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexandermiro/cppish.git"
