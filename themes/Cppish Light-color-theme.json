@@ -140,6 +140,7 @@
 			"name": "Scope resolution - namespaces",
 			"scope": [
 				"entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp"
 			],
 			"settings": {
 				"foreground": "#9b9b9b"
@@ -292,17 +293,28 @@
 			"name": "Function calls",
 			"scope": [
 				"entity.name.function.call.cpp",
-				"keyword.other.operator.overload.cpp"
+				"keyword.other.operator.overload.cpp",
+				"entity.name.function.member.cpp",
+				"entity.name.function.definition.cpp",
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#213feb"
+				"foreground": "#0023e9"
+			}
+		},
+		{
+			"name": "Support Function - anonymous namespace",
+			"scope": [
+				"support.function",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#eb6a00"
 			}
 		},
 		{
 			"name": "Important types",
 			"scope": [
-				"support.function",
 				"entity.name.type.class.cpp",
 				"entity.name.scope-resolution.function.definition.cpp",
 				"entity.name.type.enum.cpp",
@@ -311,17 +323,6 @@
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#213feb"
-			}
-		},
-		{
-			"name": "Member",
-			"scope": [
-				"entity.name.function.member.cpp",
-				"entity.name.function.definition.cpp",
-			],
-			"settings": {
-				"fontStyle": "italic bold",
-				"foreground": "#E63B60"
 			}
 		},
 		{
@@ -340,8 +341,8 @@
 				"variable.other.enummember.cpp"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#008f15"
+				"fontStyle": "bold",
+				"foreground": "#007e9a"
 			}
 		},
 		{
